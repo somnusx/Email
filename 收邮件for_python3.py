@@ -12,7 +12,7 @@ from email.header import decode_header
 #读取邮件
 read=poplib.POP3('pop.sina.com')
 read.user('somnus_sx@sina.com')#这里设置登陆账号
-read.pass_('156csvcsxcs132')#这里设置登陆密码
+read.pass_('password')#这里设置登陆密码
 tongji=read.stat()#这里返回的是邮件基本统计信息
 #print tongli #返回两个参数，第一为邮件数， 第二为总字节数
 str=read.top(tongji[0],0)#服务器将返回由参数标识的邮件前0行内容，最后str为一个列表，有三个元素
