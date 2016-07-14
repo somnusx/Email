@@ -10,7 +10,7 @@ from email.mime.text import MIMEText
 #按目的分为是为发送邮件而登陆还是为读取邮件而登陆
 #先说为发送邮件而登陆的操作
 sent=smtplib.SMTP('smtp.sina.com')#这一行设置了SMTP服务器为smtp.sina.com
-sent.login('somnus_sx@sina.com','156csvcsxcs132')
+sent.login('somnus_sx@sina.com','password')
 
 
 #发送邮件
